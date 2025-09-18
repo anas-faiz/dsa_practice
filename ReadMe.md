@@ -10,3 +10,8 @@ This repo contains my daily DSA practice, structured by topic.
 - Trees
 - Graphs
 - Backtracking
+
+## 📂 Techniques Covered
+- Searching & Sorting
+- Sliding Window
+- Hashing

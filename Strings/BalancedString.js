@@ -15,7 +15,7 @@ var balancedStringSplit = function(s) {
         else balance--;
         
         if (balance === 0) {
-            count++;
+            count+=1;
         }
     }
     
