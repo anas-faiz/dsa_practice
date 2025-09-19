@@ -15,3 +15,6 @@ This repo contains my daily DSA practice, structured by topic.
 - Searching & Sorting
 - Sliding Window
 - Hashing
+
+## 📂 Techniques Covered
+- nothing done
