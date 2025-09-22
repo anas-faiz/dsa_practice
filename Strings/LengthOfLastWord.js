@@ -6,20 +6,20 @@
  * @param {string} s
  * @return {number}
  */
-var lengthOfLastWord = function(s) {
+var lengthOfLastWord = function (s) {
   let n = s.length - 1;
-  while(n>=0){
-    if(s[n] == " " )
-        n -= 1;
-        else
-        break;
-  } 
-    let count = 0;
-  while (n>=0) {
-    if(s[n] !== " "){
-        n -= 1;
-        count++ ;
+  while (n >= 0) {
+    if (s[n] == " ")
+      n -= 1;
+    else
+      break;
+  }
+  let count = 0;
+  while (n >= 0) {
+    if (s[n] !== " ") {
+      n -= 1;
+      count++;
     } else break;
   }
-  return count;  
+  return count;
 };

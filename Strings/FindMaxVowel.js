@@ -6,7 +6,7 @@
  * @param {string} s
  * @return {number}
  */
-var maxFreqSum = function(s) {
+var maxFreqSum = function (s) {
     const vowels = new Set(['a', 'e', 'i', 'o', 'u']);
     const freq = {};
 

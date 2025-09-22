@@ -7,15 +7,15 @@
  * @param {string} stones
  * @return {number}
  */
-var numJewelsInStones = function(jewels, stones) {
+var numJewelsInStones = function (jewels, stones) {
     let n = jewels.length - 1;
     let count = 0;
-    for(let i = 0 ; i<=n; i++){
+    for (let i = 0; i <= n; i++) {
         let s = stones.length;
-        for(let j = 0;j<s;j++){
-            if(jewels[i] == stones[j])
-            count ++;
+        for (let j = 0; j < s; j++) {
+            if (jewels[i] == stones[j])
+                count++;
         }
-        }
+    }
     return count;
-    };
+};

@@ -7,18 +7,18 @@
  * @param {character} x
  * @return {number[]}
  */
-var findWordsContaining = function(words, x) {
+var findWordsContaining = function (words, x) {
   let n = words.length;
   let arr = [];
-  for (let i = 0 ; i<n ; i++){
+  for (let i = 0; i < n; i++) {
     let s = words[i];
     let m = s.length
-    for(let j = 0 ; j < m ; j++ ){
-        if(s[j] == x){
-          arr.push(i);
-          break;            
-        }
+    for (let j = 0; j < m; j++) {
+      if (s[j] == x) {
+        arr.push(i);
+        break;
+      }
     }
-    }
-    return arr;  
+  }
+  return arr;
 };
