@@ -7,7 +7,7 @@
  * @param {number} target
  * @return {number[]}
  */
-var searchRange = function(nums, target) {
+var searchRange = function (nums, target) {
     function findBound(isFirst) {
         let left = 0, right = nums.length - 1;
         let bound = -1;

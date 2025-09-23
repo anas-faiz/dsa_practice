@@ -12,18 +12,18 @@ class Solution {
     selectionSort(arr) {
         // your code here
         let n = arr.length;
-        for (let i = 0; i<=n-1;i++ ){
+        for (let i = 0; i <= n - 1; i++) {
             let min = i;
-            for (let j = i;j<=n-1;j++){
-                if(arr[j] < arr[min]){
+            for (let j = i; j <= n - 1; j++) {
+                if (arr[j] < arr[min]) {
                     min = j;
                 }
             }
-            if(min !== i){
-                    let temp = arr[i];
-                    arr[i] = arr[min];
-                    arr[min] = temp;
-                
+            if (min !== i) {
+                let temp = arr[i];
+                arr[i] = arr[min];
+                arr[min] = temp;
+
             }
         }
     }
