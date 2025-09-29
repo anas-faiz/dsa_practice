@@ -16,3 +16,5 @@ This repo contains my daily DSA practice, structured by topic.
 - Sliding Window
 - Hashing
 
+## status
+- nothing done 
