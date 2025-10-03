@@ -1,5 +1,6 @@
 //problem : search and find in an array 
-//https://leetcode.com/problems/best-time-to-buy-and-sell-stock/submissions/1760718679/
+//Link: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/submissions/1760718679/
+//solution:
 
 var maxProfit = function(prices) {
     let minPrice = Infinity;

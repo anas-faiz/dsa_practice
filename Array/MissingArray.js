@@ -1,12 +1,7 @@
 // problem : Missing integer in an array
 // https://www.geeksforgeeks.org/problems/missing-number-in-array1416/1?page=1&category=Arrays&sortBy=submissions
-
+//time complexity: O(n)
 //solution
-
-/**
- * @param {number[]} arr
- * @returns {number}
- */
 class Solution {
     missingNum(arr) {
         let n = arr.length + 1;

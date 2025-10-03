@@ -2,12 +2,6 @@
 //link : https://www.geeksforgeeks.org/problems/subarray-with-given-sum-1587115621/1?page=1&category=Arrays&sortBy=submissions 
 //time complexity : o(n*n) better solution needed
 //solution
-// User function Template for javascript
-/**
- * @param {number[]} arr
- * @param {number} target
- * @returns {number[]}
- */
 
 class Solution {
     subarraySum(arr, target) {
